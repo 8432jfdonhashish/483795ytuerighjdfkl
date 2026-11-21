@@ -576,7 +576,7 @@ select.form-input{appearance:none;-webkit-appearance:none;cursor:pointer;}
         <div id="qrPhotoDisplay" style="width:140px;height:170px;border-radius:10px;overflow:hidden;background:#D0D0D5;margin-bottom:14px;">
           <img src="https://cdn.discordapp.com/attachments/1572335838916771950/1573800782728527992/A4940861-56C7-4820-A75A-F3FBA76D5655.jpg?ex=6b0353b2&amp;is=6b020232&amp;hm=c6041490fa7565914c16625367c49c7b0c019066f2fe1d4a989fab9461bd00f8&amp;" alt="Profilbillede" style="width:100%;height:100%;object-fit:cover;display:block;">
         </div>
-        <div id="qrCardName" style="font-size:20px;font-weight:700;color:#1C1C1E;text-align:center;margin-bottom:4px;">Daniel Nielsen</div>
+        <div id="qrCardName" style="font-size:20px;font-weight:700;color:#1C1C1E;text-align:center;margin-bottom:4px;">Malik Andersen</div>
         <div style="font-size:14px;color:#8E8E93;font-weight:400;margin-bottom:20px;">e-Boks ID</div>
         <div style="width:100%;height:0.5px;background:#E5E5EA;"></div>
       </div>
@@ -672,7 +672,7 @@ select.form-input{appearance:none;-webkit-appearance:none;cursor:pointer;}
         </div>
         <div style="font-size:13px;color:var(--subtext);">Tap for at skifte profilbillede</div>
       </div>
-      <div class="form-group"><label class="form-label">Fulde navn</label><input class="form-input" id="editName" type="text" value="Daniel Nielsen"></div>
+      <div class="form-group"><label class="form-label">Fulde navn</label><input class="form-input" id="editName" type="text" value="Malik Andersen"></div>
       <div class="form-group"><label class="form-label">Fødselsdag</label><input class="form-input" id="editDob" type="date" value="2007-12-05"></div>
       <div class="form-group"><label class="form-label">Bruger-ID</label><input class="form-input" id="editUserId" type="text" value="DK-2007-DN-8821"></div>
       <div style="height:20px"></div>
@@ -765,7 +765,7 @@ function showScreen(id) {
 }
 
 function saveProfile() {
-  const name = document.getElementById('editName').value.trim() || 'Daniel Nielsen';
+  const name = document.getElementById('editName').value.trim() || 'Malik Andersen';
   const dob  = document.getElementById('editDob').value;
   document.getElementById('cardName').textContent = name;
   document.getElementById('qrCardName').textContent = name;
